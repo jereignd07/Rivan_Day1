@@ -5,7 +5,7 @@ FIND AND REPLACE THE FOLLOWING - From # to #
 ! Cam8 Mac Add:     001a.070b.474d
 ! Ephone 1 Mac: 	2c54.2d0e.f4a3
 ! Ephone 2 Mac: 	ccd8.c1fb.163f
-! YourPhone Mac:	#mym0bilemac#
+! YourPhone Mac:	b405.a1d0.93b0
 ! OtherPhone Mac:	#othm0bilemac#
 
 
@@ -558,7 +558,7 @@ conf t
    allow watch
    name 8124
   voice register pool 1
-    id mac #mym0bilemac#
+    id mac b405.a1d0.93b0
     number 1 dn 1
     dtmf-relay sip-notify
     username 8123 password 8123
@@ -591,6 +591,7 @@ conf t
 conf t
  class-map voip
   match ip dscp  ?
+
 
 
 
